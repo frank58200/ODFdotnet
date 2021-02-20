@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODFLibrary", "ODFLibrary\ODFLibrary.csproj", "{278E6049-7CB3-463C-A195-EA3BB96E91CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODFLibrary", "ODFLibrary\ODFLibrary.csproj", "{278E6049-7CB3-463C-A195-EA3BB96E91CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODFConsole", "ODFConsole\ODFConsole.csproj", "{2E298511-7F8D-4EEB-B497-A1FE64142B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODFConsole", "ODFConsole\ODFConsole.csproj", "{2E298511-7F8D-4EEB-B497-A1FE64142B5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E016606-A0DB-45B3-BB4A-61F6D108FAF1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitingore = .gitingore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{278E6049-7CB3-463C-A195-EA3BB96E91CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +46,11 @@ Global
 		{2E298511-7F8D-4EEB-B497-A1FE64142B5B}.Release|x64.Build.0 = Release|Any CPU
 		{2E298511-7F8D-4EEB-B497-A1FE64142B5B}.Release|x86.ActiveCfg = Release|Any CPU
 		{2E298511-7F8D-4EEB-B497-A1FE64142B5B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B803BE91-EC0E-4527-84E8-EACCDA31A791}
 	EndGlobalSection
 EndGlobal
